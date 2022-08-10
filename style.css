@@ -8,7 +8,22 @@
 .custom__section{
     display: flex;
     gap: 10px;
-    padding-right: 10px;
+    padding-right: 3rem;
+}
+
+.custom__iconsection{
+    margin-right: 5px;
+    position: relative;
+}
+
+.custom__iconsection:after{
+    content: "";
+    height: 80%;
+    width: 1px;
+    position: absolute;
+    top: 4px;
+    right: -6px;
+    background-color: #d7d7d7;
 }
 
 .custom__icon{
@@ -26,9 +41,14 @@
     font-weight: 500;
 }
 
+.custom__section:hover a{
+    color: #DD3536;
+}
+
 .custom__feed{
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.4px;
     color: inherit;
 }
+
